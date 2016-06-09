@@ -15,7 +15,7 @@
     "get-size": "~1.2.2",
     "get-style-property": "~1.0.4",
     "matches-selector": "~1.0.2",
-    "tap-listener": "chrisforrette/tap-listener"t
+    "tap-listener": "git://github.com/chrisforrette/tap-listener.git#master"
     "unidragger": "~1.1.5"
   },
   "devDependencies": {
