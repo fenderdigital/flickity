@@ -154,7 +154,7 @@ if ( typeof define === 'function' && define.amd ) {
  * class helper functions
  * from bonzo https://github.com/ded/bonzo
  * MIT license
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -1346,7 +1346,7 @@ utils.modulo = function( num, div ) {
 };
 
 // ----- isArray ----- //
-  
+
 var objToString = Object.prototype.toString;
 utils.isArray = function( obj ) {
   return objToString.call( obj ) == '[object Array]';
@@ -3308,7 +3308,7 @@ Unidragger.prototype._staticClick = function( event, pointer ) {
     // reset flag after 300ms
     setTimeout( function() {
       delete _this.isIgnoringMouseUp;
-    }, 400 );
+    }, 800 );
   }
 };
 
@@ -3786,7 +3786,7 @@ TapListener.prototype.pointerUp = function( event, pointer ) {
     // reset flag after 300ms
     setTimeout( function() {
       delete this.isIgnoringMouseUp;
-    }.bind( this ), 400 );
+    }.bind( this ), 800 );
   }
 };
 
@@ -5393,4 +5393,3 @@ Flickity.prototype.imagesLoaded = function() {
 return Flickity;
 
 }));
-
