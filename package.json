@@ -31,8 +31,7 @@
     "gulp-uglify": "^1.0.2",
     "gulp-json-lint": "0.0.1",
     "gulp-clean-css": "^2.0.4",
-    "minimist": "^1.1.0",
-    "tap-listener": "chrisforrette/tap-listener"
+    "minimist": "^1.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
