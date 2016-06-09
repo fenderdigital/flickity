@@ -14,7 +14,7 @@
     "wolfy87-eventemitter": "~4.2.11",
     "unidragger": "~1.1.5",
     "fizzy-ui-utils": "~1.0.0",
-    "tap-listener": "chrisforrette/tap-listener"
+    "tap-listener": "git://github.com/chrisforrette/tap-listener.git#master"
   },
   "devDependencies": {
     "flickity-imagesloaded": "~1.0.0",
