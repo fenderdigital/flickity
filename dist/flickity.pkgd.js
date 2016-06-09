@@ -3786,7 +3786,7 @@ TapListener.prototype.pointerUp = function( event, pointer ) {
     // reset flag after 300ms
     setTimeout( function() {
       delete this.isIgnoringMouseUp;
-    }.bind( this ), 320 );
+    }.bind( this ), 400 );
   }
 };
 
